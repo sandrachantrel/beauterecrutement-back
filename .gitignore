@@ -18,6 +18,7 @@ wp
 
 # Plugins
 /content/plugins/*/
+!/content/plugins/beauterecrutement
 
 # Themes
 /content/themes/*/
