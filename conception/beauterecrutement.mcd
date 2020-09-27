@@ -1,0 +1,14 @@
+SUBSCRIBE, 01 NEWSLETTER REGISTRATION, 01 WP_USERS
+NEWSLETTER REGISTRATION: _email
+PROPOSE, 11 WP_JOB OFFER, 0N WP_JOBS
+WP_JOBS: _NAME, SLUG
+
+WP_USERS: _email, pass, last name, first name, avatar, slug
+DRAFT, 0N WP_USERS, 11 WP_JOB OFFER
+WP_JOB OFFER: _title, content, salairy, education level, working time, state, slug, publication date, modification date, expiration date
+DEFINES, 0N WP_TYPE, 11 WP_JOB OFFER
+
+:
+WP_LOCALISATION: _name, address, slug
+CONTENT, 11 WP_JOB OFFER, 0N WP_LOCALISATION
+WP_TYPE: _name, slug

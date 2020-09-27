@@ -1,0 +1,165 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="555" height="398" view_box="0 0 555 398"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Sun, 27 Sep 2020 07:03:51</desc>
+
+<rect id="frame" x="0" y="0" width="555" height="398" fill="#ffffff" stroke="none" stroke-width="0"/>
+
+<!-- Association CONTENT -->
+<line x1="386" y1="195" x2="386" y2="347" stroke="#d6604d" stroke-width="2"/>
+<text x="391.0" y="314" fill="#4d4d4d" font-family="Verdana" font-size="12">1,1</text>
+<line x1="222" y1="347" x2="386" y2="347" stroke="#d6604d" stroke-width="2"/>
+<text x="292" y="364.0" fill="#4d4d4d" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-CONTENT">
+	<path d="M 409 322 a 14 14 90 0 1 14 14 V 347 h -74 V 336 a 14 14 90 0 1 14 -14" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+	<path d="M 423 347.0 v 11 a 14 14 90 0 1 -14 14 H 363 a 14 14 90 0 1 -14 -14 V 347.0 H 74" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+	<rect x="349" y="322" width="74" height="50" fill="none" rx="14" stroke="#d6604d" stroke-width="2"/>
+	<line x1="349" y1="347" x2="423" y2="347" stroke="#d6604d" stroke-width="1"/>
+	<text x="356" y="339.7" fill="#000000" font-family="Verdana" font-size="12">CONTENT</text>
+</g>
+
+<!-- Association SUBSCRIBE -->
+<line x1="222" y1="43" x2="52" y2="43" stroke="#d6604d" stroke-width="2"/>
+<text x="101" y="60.0" fill="#4d4d4d" font-family="Verdana" font-size="12">0,1</text>
+<line x1="52" y1="195" x2="52" y2="43" stroke="#d6604d" stroke-width="2"/>
+<text x="57.0" y="119" fill="#4d4d4d" font-family="Verdana" font-size="12">0,1</text>
+<g id="association-SUBSCRIBE">
+	<path d="M 81 18 a 14 14 90 0 1 14 14 V 43 h -86 V 32 a 14 14 90 0 1 14 -14" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+	<path d="M 95 43.0 v 11 a 14 14 90 0 1 -14 14 H 23 a 14 14 90 0 1 -14 -14 V 43.0 H 86" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+	<rect x="9" y="18" width="86" height="50" fill="none" rx="14" stroke="#d6604d" stroke-width="2"/>
+	<line x1="9" y1="43" x2="95" y2="43" stroke="#d6604d" stroke-width="1"/>
+	<text x="16" y="35.7" fill="#000000" font-family="Verdana" font-size="12">SUBSCRIBE</text>
+</g>
+
+<!-- Association DEFINES -->
+<line x1="511" y1="347" x2="511" y2="195" stroke="#d6604d" stroke-width="2"/>
+<text x="516.0" y="305" fill="#4d4d4d" font-family="Verdana" font-size="12">0,N</text>
+<line x1="386" y1="195" x2="511" y2="195" stroke="#d6604d" stroke-width="2"/>
+<text x="449" y="212.0" fill="#4d4d4d" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-DEFINES">
+	<path d="M 532 170 a 14 14 90 0 1 14 14 V 195 h -70 V 184 a 14 14 90 0 1 14 -14" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+	<path d="M 546 195.0 v 11 a 14 14 90 0 1 -14 14 H 490 a 14 14 90 0 1 -14 -14 V 195.0 H 70" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+	<rect x="476" y="170" width="70" height="50" fill="none" rx="14" stroke="#d6604d" stroke-width="2"/>
+	<line x1="476" y1="195" x2="546" y2="195" stroke="#d6604d" stroke-width="1"/>
+	<text x="483" y="187.7" fill="#000000" font-family="Verdana" font-size="12">DEFINES</text>
+</g>
+
+<!-- Association DRAFT -->
+<line x1="52" y1="195" x2="222" y2="195" stroke="#d6604d" stroke-width="2"/>
+<text x="97" y="212.0" fill="#4d4d4d" font-family="Verdana" font-size="12">0,N</text>
+<line x1="386" y1="195" x2="222" y2="195" stroke="#d6604d" stroke-width="2"/>
+<text x="302" y="212.0" fill="#4d4d4d" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-DRAFT">
+	<path d="M 236 170 a 14 14 90 0 1 14 14 V 195 h -56 V 184 a 14 14 90 0 1 14 -14" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+	<path d="M 250 195.0 v 11 a 14 14 90 0 1 -14 14 H 208 a 14 14 90 0 1 -14 -14 V 195.0 H 56" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+	<rect x="194" y="170" width="56" height="50" fill="none" rx="14" stroke="#d6604d" stroke-width="2"/>
+	<line x1="194" y1="195" x2="250" y2="195" stroke="#d6604d" stroke-width="1"/>
+	<text x="201" y="187.7" fill="#000000" font-family="Verdana" font-size="12">DRAFT</text>
+</g>
+
+<!-- Association PROPOSE -->
+<line x1="386" y1="195" x2="386" y2="43" stroke="#d6604d" stroke-width="2"/>
+<text x="391.0" y="85" fill="#4d4d4d" font-family="Verdana" font-size="12">1,1</text>
+<line x1="511" y1="43" x2="386" y2="43" stroke="#d6604d" stroke-width="2"/>
+<text x="449" y="60.0" fill="#4d4d4d" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-PROPOSE">
+	<path d="M 409 18 a 14 14 90 0 1 14 14 V 43 h -74 V 32 a 14 14 90 0 1 14 -14" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+	<path d="M 423 43.0 v 11 a 14 14 90 0 1 -14 14 H 363 a 14 14 90 0 1 -14 -14 V 43.0 H 74" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+	<rect x="349" y="18" width="74" height="50" fill="none" rx="14" stroke="#d6604d" stroke-width="2"/>
+	<line x1="349" y1="43" x2="423" y2="43" stroke="#d6604d" stroke-width="1"/>
+	<text x="356" y="35.7" fill="#000000" font-family="Verdana" font-size="12">PROPOSE</text>
+</g>
+
+<!-- Entity NEWSLETTER REGISTRATION -->
+<g id="entity-NEWSLETTER REGISTRATION">
+	<g id="frame-NEWSLETTER REGISTRATION">
+		<rect x="127" y="18" width="190" height="25" fill="#bababa" stroke="#bababa" stroke-width="0"/>
+		<rect x="127" y="43.0" width="190" height="25" fill="#e0e0e0" stroke="#e0e0e0" stroke-width="0"/>
+		<rect x="127" y="18" width="190" height="50" fill="none" stroke="#878787" stroke-width="2"/>
+		<line x1="127" y1="43" x2="317" y2="43" stroke="#878787" stroke-width="1"/>
+	</g>
+	<text x="132" y="35.7" fill="#000000" font-family="Verdana" font-size="12">NEWSLETTER REGISTRATION</text>
+	<text x="132" y="60.8" fill="#000000" font-family="Verdana" font-size="12">email</text>
+</g>
+
+<!-- Entity WP_JOBS -->
+<g id="entity-WP_JOBS">
+	<g id="frame-WP_JOBS">
+		<rect x="476" y="9" width="70" height="25" fill="#bababa" stroke="#bababa" stroke-width="0"/>
+		<rect x="476" y="34.0" width="70" height="43" fill="#e0e0e0" stroke="#e0e0e0" stroke-width="0"/>
+		<rect x="476" y="9" width="70" height="68" fill="none" stroke="#878787" stroke-width="2"/>
+		<line x1="476" y1="34" x2="546" y2="34" stroke="#878787" stroke-width="1"/>
+	</g>
+	<text x="481" y="26.7" fill="#000000" font-family="Verdana" font-size="12">WP_JOBS</text>
+	<text x="481" y="51.8" fill="#000000" font-family="Verdana" font-size="12">NAME</text>
+	<text x="481" y="68.8" fill="#000000" font-family="Verdana" font-size="12">SLUG</text>
+</g>
+
+<!-- Entity WP_USERS -->
+<g id="entity-WP_USERS">
+	<g id="frame-WP_USERS">
+		<rect x="12" y="127" width="80" height="25" fill="#bababa" stroke="#bababa" stroke-width="0"/>
+		<rect x="12" y="152.0" width="80" height="111" fill="#e0e0e0" stroke="#e0e0e0" stroke-width="0"/>
+		<rect x="12" y="127" width="80" height="136" fill="none" stroke="#878787" stroke-width="2"/>
+		<line x1="12" y1="152" x2="92" y2="152" stroke="#878787" stroke-width="1"/>
+	</g>
+	<text x="17" y="144.7" fill="#000000" font-family="Verdana" font-size="12">WP_USERS</text>
+	<text x="17" y="169.7" fill="#000000" font-family="Verdana" font-size="12">email</text>
+	<text x="17" y="186.7" fill="#000000" font-family="Verdana" font-size="12">pass</text>
+	<text x="17" y="203.8" fill="#000000" font-family="Verdana" font-size="12">last name</text>
+	<text x="17" y="220.8" fill="#000000" font-family="Verdana" font-size="12">first name</text>
+	<text x="17" y="237.8" fill="#000000" font-family="Verdana" font-size="12">avatar</text>
+	<text x="17" y="254.8" fill="#000000" font-family="Verdana" font-size="12">slug</text>
+</g>
+
+<!-- Entity WP_JOB OFFER -->
+<g id="entity-WP_JOB OFFER">
+	<g id="frame-WP_JOB OFFER">
+		<rect x="328" y="93" width="116" height="25" fill="#bababa" stroke="#bababa" stroke-width="0"/>
+		<rect x="328" y="118.0" width="116" height="179" fill="#e0e0e0" stroke="#e0e0e0" stroke-width="0"/>
+		<rect x="328" y="93" width="116" height="204" fill="none" stroke="#878787" stroke-width="2"/>
+		<line x1="328" y1="118" x2="444" y2="118" stroke="#878787" stroke-width="1"/>
+	</g>
+	<text x="339" y="110.7" fill="#000000" font-family="Verdana" font-size="12">WP_JOB OFFER</text>
+	<text x="333" y="135.7" fill="#000000" font-family="Verdana" font-size="12">title</text>
+	<text x="333" y="152.7" fill="#000000" font-family="Verdana" font-size="12">content</text>
+	<text x="333" y="169.7" fill="#000000" font-family="Verdana" font-size="12">salairy</text>
+	<text x="333" y="186.7" fill="#000000" font-family="Verdana" font-size="12">education level</text>
+	<text x="333" y="203.8" fill="#000000" font-family="Verdana" font-size="12">working time</text>
+	<text x="333" y="220.8" fill="#000000" font-family="Verdana" font-size="12">state</text>
+	<text x="333" y="237.8" fill="#000000" font-family="Verdana" font-size="12">slug</text>
+	<text x="333" y="254.8" fill="#000000" font-family="Verdana" font-size="12">publication date</text>
+	<text x="333" y="271.8" fill="#000000" font-family="Verdana" font-size="12">modification date</text>
+	<text x="333" y="288.8" fill="#000000" font-family="Verdana" font-size="12">expiration date</text>
+</g>
+
+<!-- Entity WP_LOCALISATION -->
+<g id="entity-WP_LOCALISATION">
+	<g id="frame-WP_LOCALISATION">
+		<rect x="157" y="305" width="130" height="25" fill="#bababa" stroke="#bababa" stroke-width="0"/>
+		<rect x="157" y="330.0" width="130" height="59" fill="#e0e0e0" stroke="#e0e0e0" stroke-width="0"/>
+		<rect x="157" y="305" width="130" height="84" fill="none" stroke="#878787" stroke-width="2"/>
+		<line x1="157" y1="330" x2="287" y2="330" stroke="#878787" stroke-width="1"/>
+	</g>
+	<text x="162" y="322.7" fill="#000000" font-family="Verdana" font-size="12">WP_LOCALISATION</text>
+	<text x="162" y="347.8" fill="#000000" font-family="Verdana" font-size="12">name</text>
+	<text x="162" y="364.8" fill="#000000" font-family="Verdana" font-size="12">address</text>
+	<text x="162" y="381.8" fill="#000000" font-family="Verdana" font-size="12">slug</text>
+</g>
+
+<!-- Entity WP_TYPE -->
+<g id="entity-WP_TYPE">
+	<g id="frame-WP_TYPE">
+		<rect x="477" y="313" width="68" height="25" fill="#bababa" stroke="#bababa" stroke-width="0"/>
+		<rect x="477" y="338.0" width="68" height="43" fill="#e0e0e0" stroke="#e0e0e0" stroke-width="0"/>
+		<rect x="477" y="313" width="68" height="68" fill="none" stroke="#878787" stroke-width="2"/>
+		<line x1="477" y1="338" x2="545" y2="338" stroke="#878787" stroke-width="1"/>
+	</g>
+	<text x="482" y="330.7" fill="#000000" font-family="Verdana" font-size="12">WP_TYPE</text>
+	<text x="482" y="355.8" fill="#000000" font-family="Verdana" font-size="12">name</text>
+	<text x="482" y="372.8" fill="#000000" font-family="Verdana" font-size="12">slug</text>
+</g>
+</svg>
