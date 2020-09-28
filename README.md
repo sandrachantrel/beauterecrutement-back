@@ -1,6 +1,6 @@
 # Beauté Recrutement
 
-Le projet Beauté Recrutement est un logiciel SaaS permettant de gérer ses process de recrutement à travers un back office.
+Le projet Beauté Recrutement est un logiciel SaaS permettant de gérer ses process de recrutement à travers le back office.
 
 ## Organisation du projet
 
@@ -12,7 +12,7 @@ Le Product Owner a déjà fait tout le travail de préparation et nous a mis à 
 
 ### Frontend
 
-Le front-end sera développé à l'aide du framework Vue.js. Tout le front-end sera imaginé et développé dans le dossier beaute-recrutement-frontend sur le même repository GitHub que le backend.
+Le front-end sera développé à l'aide du framework Vue.js. Tout le front-end sera imaginé et développé dans le dossier Projet-beaute-recrutement-front sur un repository GitHub à part.
 
 ### Backend
 
