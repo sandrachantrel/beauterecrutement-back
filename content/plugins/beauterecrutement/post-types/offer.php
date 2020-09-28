@@ -3,6 +3,9 @@
 /**
  * Registers the `offer` post type.
  */
+
+ //CTP généré automatiquement grâce à la LDC: wp scaffold post-type offer --plugin=beauterecrutement --label=Offer --textdomain=beauterecrutement --dashicon=dashicon-portfolio
+ 
 function offer_init() {
 	register_post_type( 'offer', array(
 		'labels'                => array(
