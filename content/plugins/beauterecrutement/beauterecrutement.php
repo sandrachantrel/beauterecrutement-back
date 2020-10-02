@@ -12,3 +12,5 @@
 
  //Require indispensable pour le chargement du post-type dans le back office
  require plugin_dir_path(__FILE__) . 'post-types/offer.php';
+ require plugin_dir_path(__FILE__) . 'taxonomies/localisation.php';
+ 
