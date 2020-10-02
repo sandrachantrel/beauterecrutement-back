@@ -35,19 +35,36 @@ function offer_init() {
 			'parent_item_colon'     => __( 'Parent Offer:', 'beauterecrutement' ),
 			'menu_name'             => __( "Offres d'Emploi", 'beauterecrutement' ),
 		),
-		'public'                => true,
+		'public'                => false, // En mode api donc pas besoin d'url public
 		'hierarchical'          => false,
-		'show_ui'               => true,
-		'show_in_nav_menus'     => true,
-		'supports'              => array( 'title', 'editor' ),
-		'has_archive'           => true,
-		'rewrite'               => true,
-		'query_var'             => true,
+		'show_ui'               => true, // pour que ce soit present dans le BO
+		'show_in_nav_menus'     => false, // pas de gestion de menu avec wp 
+		'supports'              => array( 'title', 'editor', 'thumbnail', 'excerpt', 'custom-fields', 'revisions' ),
+		'has_archive'           => false,
+		'rewrite'               => false,
+		'query_var'             => false,
 		'menu_position'         => null,
 		'menu_icon'             => 'dashicons-portfolio',
 		'show_in_rest'          => true,
-		'rest_base'             => 'offer',
+		'rest_base'             => 'offers',
 		'rest_controller_class' => 'WP_REST_Posts_Controller',
+		'capabilities'          => [
+			'read'                   => 'read',
+			'edit_post'              => 'edit_offer',
+			'read_post'              => 'read_offer',
+			'delete_post'            => 'delete_offer',
+			'edit_posts'             => 'edit_offers',
+			'edit_others_posts'      => 'edit_others_offers',
+			'delete_posts'           => 'delete_offers',
+			'publish_posts'          => 'publish_offers',
+			'read_private_posts'     => 'read_private_offers',
+			'delete_private_posts'   => 'delete_private_offers',
+			'delete_published_posts' => 'delete_published_offers',
+			'delete_others_posts'    => 'delete_others_offers',
+			'edit_private_posts'     => 'edit_private_offers',
+			'edit_published_posts'   => 'edit_published_offers',
+			'create_posts'           => 'create_offers'
+		],
 	) );
 
 }
