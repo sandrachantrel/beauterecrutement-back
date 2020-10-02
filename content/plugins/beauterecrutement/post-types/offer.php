@@ -48,7 +48,7 @@ function offer_init() {
 		'show_in_rest'          => true,
 		'rest_base'             => 'offers',
 		'rest_controller_class' => 'WP_REST_Posts_Controller',
-		/*'capabilities'          => [
+		'capabilities'          => [
 			'read'                   => 'read',
 			'edit_post'              => 'edit_offer',
 			'read_post'              => 'read_offer',
@@ -64,7 +64,7 @@ function offer_init() {
 			'edit_private_posts'     => 'edit_private_offers',
 			'edit_published_posts'   => 'edit_published_offers',
 			'create_posts'           => 'create_offers'
-		],*/
+		],
 	) );
 
 }

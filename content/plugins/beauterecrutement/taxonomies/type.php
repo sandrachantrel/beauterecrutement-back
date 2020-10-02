@@ -37,7 +37,7 @@ function type_init() {
 			'choose_from_most_used'      => __( 'Choose from the most used Types', 'beauterecrutement' ),
 			'not_found'                  => __( 'No Types found.', 'beauterecrutement' ),
 			'no_terms'                   => __( 'No Types', 'beauterecrutement' ),
-			'menu_name'                  => __( 'Types de Contrats', 'beauterecrutement' ),
+			'menu_name'                  => __( 'Types de Contrat', 'beauterecrutement' ),
 			'items_list_navigation'      => __( 'Types list navigation', 'beauterecrutement' ),
 			'items_list'                 => __( 'Types list', 'beauterecrutement' ),
 			'most_used'                  => _x( 'Most Used', 'type', 'beauterecrutement' ),

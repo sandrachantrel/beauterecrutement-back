@@ -13,12 +13,12 @@ function localisation_init() {
 		'show_admin_column' => true,
 		'query_var'         => false,
 		'rewrite'           => false,
-		/*'capabilities'      => array(
+		'capabilities'      => array(
 			'manage_terms'  => 'manage_localisations',
 			'edit_terms'    => 'manage_localisations',
 			'delete_terms'  => 'manage_localisations',
 			'assign_terms'  => 'edit_offers',
-		),*/
+		),
 		'labels'            => array(
 			'name'                       => __( 'Localisations', 'beauterecrutement' ),
 			'singular_name'              => _x( 'Localisation', 'taxonomy general name', 'beauterecrutement' ),
