@@ -18,12 +18,15 @@ if ( ! function_exists( 'add_recruiter_role')) {
                 'delete_private_offers' => true,
                 'delete_published_offers' => true,
                 'delete_others_offers' => true,
-                'edit_private_offers' => false,
+                'edit_private_offers' => true,
                 'edit_published_offers' => true,
                 'create_offers' => true,
-                'manage_localisations' => true,
-                'manage_types' => true,
-                'manage_jobs' => true,
+                'manage_localisations' => false,
+                'manage_jobs' => false,
+                'manage_types' => false,
+                'edit_types' => true,
+                'delete_types' => true,
+                'upload_files' => true,
             ]
         );
     }

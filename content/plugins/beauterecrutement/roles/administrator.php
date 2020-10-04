@@ -30,9 +30,16 @@ if ( ! function_exists( 'add_administrator_capabilities' )) {
 
         // Types de contrat
             $administrator->add_cap('manage_types');
+            $administrator->add_cap('edit_types');
+            $administrator->add_cap('delete_types');
 
         // Métiers
             $administrator->add_cap('manage_jobs');
+
+        // Remove Pages
+
+            // suppression du post-type par default page - attention pour rajouter le post-type faire add_cap
+            $administrator->remove_cap('edit_pages');
 
     }
 }

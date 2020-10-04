@@ -15,8 +15,8 @@ function type_init() {
 		'rewrite'           => false,
 		'capabilities'      => array(
 			'manage_terms'  => 'manage_types',
-			'edit_terms'    => 'manage_types',
-			'delete_terms'  => 'manage_types',
+			'edit_terms'    => 'edit_types',
+			'delete_terms'  => 'delete_types',
 			'assign_terms'  => 'edit_offers',
 		),
 		'labels'            => array(
