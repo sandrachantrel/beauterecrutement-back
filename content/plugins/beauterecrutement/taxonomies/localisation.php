@@ -44,7 +44,7 @@ function localisation_init() {
 			'back_to_items'              => __( '&larr; Back to Localisations', 'beauterecrutement' ),
 		),
 		'show_in_rest'      => true,
-		'rest_base'         => 'localisations',
+		'rest_base'         => 'offers/localisations',
 		'rest_controller_class' => 'WP_REST_Terms_Controller',
 	) );
 

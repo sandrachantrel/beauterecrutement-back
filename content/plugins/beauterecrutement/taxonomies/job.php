@@ -44,7 +44,7 @@ function job_init() {
 			'back_to_items'              => __( '&larr; Back to Jobs', 'beauterecrutement' ),
 		),
 		'show_in_rest'      => true,
-		'rest_base'         => 'jobs',
+		'rest_base'         => 'offers/jobs',
 		'rest_controller_class' => 'WP_REST_Terms_Controller',
 	) );
 
