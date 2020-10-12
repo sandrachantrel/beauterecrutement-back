@@ -105,3 +105,4 @@ function offer_updated_messages( $messages ) {
 	return $messages;
 }
 add_filter( 'post_updated_messages', 'offer_updated_messages' );
+
