@@ -54,6 +54,8 @@ define( 'AUTH_SALT',        'put your unique phrase here' );
 define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
 define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
 define( 'NONCE_SALT',       'put your unique phrase here' );
+// JWT Auth secret key
+define('JWT_AUTH_SECRET_KEY', 'put_your_unique_phrase_here');
 
 /**#@-*/
 
@@ -104,6 +106,9 @@ if (! defined( 'ENVIRONMENT' ) ) {
         }
     }
 }
+
+// Activate JWT Auth CORS Management 
+define( 'JWT_AUHT_CORS_ENABLE', true );
 
 /* That's all, stop editing! Happy publishing. */
 
