@@ -17,6 +17,7 @@
  require plugin_dir_path(__FILE__) . 'taxonomies/localisation.php';
  require plugin_dir_path(__FILE__) . 'taxonomies/type.php';
  require plugin_dir_path(__FILE__) . 'taxonomies/job.php';
+ require plugin_dir_path(__FILE__) . 'api/token-validate-endpoint.php';
 
 
  register_activation_hook( __FILE__, function(){
