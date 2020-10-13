@@ -26,7 +26,7 @@ if ( ! function_exists( 'add_recruiter_role')) {
                 'manage_types' => false,
                // 'edit_types' => true,
                 //'delete_types' => true,
-               //'upload_files' => true,
+                'upload_files' => true,
             ]
         );
     }
