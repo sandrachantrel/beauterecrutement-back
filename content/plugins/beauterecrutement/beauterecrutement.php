@@ -1,9 +1,12 @@
 <?php
-/**
- * Plugin Name: beauterecrutement
- */
+/*
+Plugin Name: BeauteRecrutement
+Description: Génération d'une plateforme permettant la gestion des processus de recrutement 
+Author: Sandra C.
+Version: 1.0
+*/
 
-// Condition pour tout arreter si on est pas dans le contexte wordpress
+// Condition pour tout arreter si on est pas dans le contexte wordpress / securisation du plugin
 
  if (!defined('WPINC')) {
      exit;
