@@ -19,6 +19,7 @@ wp
 # Plugins
 /content/plugins/*/
 !/content/plugins/beauterecrutement
+!/content/plugins/brNewsletter
 
 # Themes
 /content/themes/*/
